@@ -1,12 +1,13 @@
-<?php
-echo "<h1> Creacion de archivo<h1>";
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>ASURA SYSTEM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
 
-if(!is_dir("logs")){
-	mkdir("logs", 0777, true);
-}
-
-$file = fopen("logs/logs.txt", "a");
-  
-fputs($file, "prueba de creacion de archivo");
-
-?>
+<body>
+  <h1>Pagina en construccion.</h1>h1>
+</body>
+</html>
